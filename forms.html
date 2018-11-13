@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> form </title>
+</head>
+<body>
+<h1>contact us</h1>
+<div>
+	<a href="first.html">first page</a>
+	<a href="tables.html">tables</a>
+	<a href="forms.html">forms</a>
+	<a href="http://brytahub.com"
+	target="_blank">BRYTAHUB</a>
+</div>
+<form method="post">
+	<p>
+	<label  for="name">Name</label>
+		<input type="text" id="name" placeholder="e.g joe amandi "name="name" />
+	</p>
+	<P>
+		<label for="email">Email:</label>
+		<input type="email" id="email" placeholder="e.g. joe@gmail.com" name="email" required="">
+	</P>
+	<p>
+		<label for="pass">Password</label>
+		<input type="password"
+		name="pass" id="pass" />
+	</p>
+	<p>
+		<label for="male">male</label>
+		<input type="radio" name="gender" id="male" />
+		<label for="female">female</label>
+		<input type="radio" name="gender" id="female" />
+
+	</p>
+	<p>
+		<label for="agree">
+			do you agree we sell your data
+		</label>
+		<input type="checkbox" name="agree" id="agree">
+	</p>
+	<p>
+		<label for="cv">upload your CV</label>
+		<input type="file" name="cv" id="cv">
+	</p>
+	<p>
+		<label for="education">education level</label>
+		<select id="education" name="education">
+		<option value="1">
+			o'level
+		</option>
+		<option value="2">a'level
+		</option>
+		<option value="3">first degree
+		</option>
+		<option value="5">masters
+		</option>
+			
+		</select>
+	</p>
+	<p>
+	<label for="address">Adress</label>
+	<textarea id="address" name="address" rows="17" cols="43" placeholder="e.g. kuje"></textarea>
+	</p>
+	<p>
+		<button type="reset">cancel</button>
+		<button type="submit">send message
+		</button>
+	</p>
+</form>
+</body>
+</html>
